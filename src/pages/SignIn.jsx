@@ -7,9 +7,9 @@ const SignIn = () => {
     alert("This is a placeholder");
   };
   return (
-    <div className="SI--cta">
+    <div className="Sign--cta">
       <div className="Form-cta">
-        <h2>Log In</h2>
+        <h2>Sign In</h2>
       <form>
         <input type="email" placeholder="email@example.com" />
         <input type="password" placeholder="password" />

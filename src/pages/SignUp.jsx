@@ -6,13 +6,16 @@ const SignUp = () => {
     alert("This is a placeholder");
   };
   return (
-    <div className="SU--ctn">
+    <div className="Sign--cta">
+      <div className="Form-cta">
+        <h2>Sign Up</h2>
       <form>
-        <input type="email" />
-        <input type="password" />
-        <button onClick={SubmitHandler}>Submit</button>
+        <input type="email" placeholder="email@example.com" />
+        <input type="password" placeholder="password" />
+        <button onClick={SubmitHandler}>Sign Up</button>
       </form>
-      <NavLink to="/">Return to Home</NavLink>
+      </div>
+      <NavLink to="/" style={{ color: "black" }}>Return to Home</NavLink>
     </div>
   );
 };

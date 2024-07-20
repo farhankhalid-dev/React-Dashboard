@@ -1,0 +1,15 @@
+.Sidebar-list{
+  list-style: none;
+  color: white;
+}
+
+.Sidebar-list li{
+  padding: 40px 20px;
+}
+
+.Sidebar-list li a{
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}

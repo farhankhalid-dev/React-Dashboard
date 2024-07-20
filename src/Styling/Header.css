@@ -1,0 +1,34 @@
+.Header-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5a5ace;
+  color: white;
+  padding: 1em 2em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Header-logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.Header_Nav-cta ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.Header_Nav-cta a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s;
+}
+
+.Header_Nav-cta a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}

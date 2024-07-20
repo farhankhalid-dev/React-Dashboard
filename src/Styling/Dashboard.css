@@ -1,0 +1,11 @@
+.Dashboard-cta{
+  display: grid;
+  grid-template-columns: 300px auto;
+  gap: 3rem;
+  height: 100vh;
+}
+
+.Sidebar-cta{
+  background-color: #4d4da8;
+}
+

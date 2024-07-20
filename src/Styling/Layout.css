@@ -1,0 +1,25 @@
+ body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+
+/* 
+.Layout-cta {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  background-color: green;
+}
+
+header {
+  grid-area: header;
+} 
+ */
+

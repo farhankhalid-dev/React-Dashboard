@@ -13,7 +13,7 @@ const SignIn = () => {
       <form>
         <input type="email" placeholder="email@example.com" />
         <input type="password" placeholder="password" />
-        <button onClick={SubmitHandler}>Log In</button>
+        <button onClick={SubmitHandler}>Sign In</button>
       </form>
       </div>
       <NavLink to="/" style={{ color: "black" }}>Return to Home</NavLink>

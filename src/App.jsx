@@ -1,5 +1,6 @@
 import "./Styling/App.css";
 import Layout from "./components/Layout.jsx";
+import P_Cards from "./components/ProductCards.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Orders from "./pages/Orders.jsx";
 import Home from "./pages/Home.jsx";
@@ -8,7 +9,7 @@ import SignIn from "./pages/SignIn.jsx";
 import SignUp from "./pages/SignUp.jsx";
 import Error from "./pages/Error.jsx";
 import About from "./pages/About.jsx";
-import D_Default from "./pages/DashboardDefault.jsx"
+import D_Default from "./pages/DashboardDefault.jsx";
 import Customers from "./pages/Customers.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 

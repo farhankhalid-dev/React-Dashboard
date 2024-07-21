@@ -4,7 +4,7 @@ import "../Styling/Sidebar.css"
 
 const Sidebar = () => {
   return (
-    <div className='Sidebar__cta'>
+    <div className='Sidebar-cta'>
       <aside>
       <ul className='Sidebar-list'>
         <li> <NavLink to="customers">Customers</NavLink> </li>

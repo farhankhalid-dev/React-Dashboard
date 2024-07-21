@@ -1,10 +1,21 @@
+.Sidebar-cta {
+  position: sticky;
+  top: 0;
+  width: 250px;
+}
+
 .Sidebar-list{
   list-style: none;
   color: white;
 }
 
+
 .Sidebar-list li{
   padding: 40px 20px;
+}
+
+.Sidebar-list li .active{
+  background-color: #5A5ACE;
 }
 
 .Sidebar-list li a{

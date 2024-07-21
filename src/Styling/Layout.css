@@ -5,21 +5,11 @@
 }
 
 
-/* 
-.Layout-cta {
-  display: grid;
-  grid-template-areas:
-    "header header"
-    "main main"
-    "footer footer";
-  grid-template-columns: 300px 1fr;
-  grid-template-rows: auto 1fr auto;
-  height: 100vh;
-  background-color: green;
+
+.Main-cta {
+  overflow: auto;
 }
 
-header {
-  grid-area: header;
-} 
- */
-
+.Footer-cta {
+  position: static;
+}

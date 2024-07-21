@@ -1,0 +1,11 @@
+.Footer-shell {
+  background-color: #5a5ace;
+  padding: 1rem 2rem;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2rem;
+}

@@ -10,7 +10,6 @@ const Dashboard = () => {
         <Sidebar />
       </div>
       <div className="Content-cta">
-        <p>Dashboard content XYZ</p>
         <Outlet />
       </div>
     </div>
